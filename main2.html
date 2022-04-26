@@ -36,7 +36,10 @@
     <script src="js/bootstrap.min.js"></script> 
 	<script>	
 		$('.kotak').click(function(){
-			$(this).slideUp(500);
+			$(this).slideUp(500)
+			$(this).slideDown(500);
+			alert($(this).index());
+			//$('.form-control').val();
 		})
 	</script>
   </body>
